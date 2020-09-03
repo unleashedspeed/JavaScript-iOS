@@ -51,6 +51,10 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
 
         let configuration = WKWebViewConfiguration()
         let javaScript = getJavaScript()
+        if javaScript.isEmpty {
+            showErrorToast(message: NSLocalizedString("JAVASCRIPTLOADINGFAILED", comment: "Failed to load JavaScript from URL"))
+        }
+        
         let script = WKUserScript(source: javaScript, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
 
         configuration.preferences = preferences

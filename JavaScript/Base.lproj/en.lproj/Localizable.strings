@@ -19,3 +19,6 @@
 "COVIDTYPEAANIMALFAILED" = "COVID Vaccine TypeA Animal Trial Failed";
 "COVIDTYPEBHUMANFAILED" = "COVID Vaccine TypeB Human Trial Failed";
 "COVIDTYPEBANIMALFAILED" = "COVID Vaccine TypeB Animal Trial Failed";
+
+// Errors
+"JAVASCRIPTLOADINGFAILED" = "JavaScript Loading Failed";
