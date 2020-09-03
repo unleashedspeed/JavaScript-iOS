@@ -9,25 +9,68 @@
 /* Begin PBXBuildFile section */
 		0909CDA72500D24B00F86AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDA62500D24B00F86AAC /* AppDelegate.swift */; };
 		0909CDA92500D24B00F86AAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDA82500D24B00F86AAC /* SceneDelegate.swift */; };
-		0909CDAB2500D24B00F86AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDAA2500D24B00F86AAC /* ViewController.swift */; };
+		0909CDAB2500D24B00F86AAC /* VaccineTrialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDAA2500D24B00F86AAC /* VaccineTrialViewController.swift */; };
 		0909CDAE2500D24B00F86AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909CDAC2500D24B00F86AAC /* Main.storyboard */; };
 		0909CDB02500D24F00F86AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909CDAF2500D24F00F86AAC /* Assets.xcassets */; };
 		0909CDB32500D24F00F86AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909CDB12500D24F00F86AAC /* LaunchScreen.storyboard */; };
+		0909CDBF2500F44900F86AAC /* HorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDBE2500F44900F86AAC /* HorizontalProgressBar.swift */; };
+		0909CDC12500F9C800F86AAC /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC02500F9C800F86AAC /* CircularProgressBar.swift */; };
+		0909CDC32500FD0400F86AAC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC22500FD0400F86AAC /* Message.swift */; };
+		0909CDC525010ACF00F86AAC /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC425010ACF00F86AAC /* MessageHandler.swift */; };
+		0909CDC7250141F200F86AAC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC6250141F200F86AAC /* UIColor+Extension.swift */; };
+		0909CDC92501453100F86AAC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC82501453100F86AAC /* UIViewController+Extension.swift */; };
+		0909CDD825014A9D00F86AAC /* JavaScriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDD725014A9D00F86AAC /* JavaScriptTests.swift */; };
+		0909CDDF25014BCA00F86AAC /* VaccineTrialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDAA2500D24B00F86AAC /* VaccineTrialViewController.swift */; };
+		0909CDE025014C9F00F86AAC /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC425010ACF00F86AAC /* MessageHandler.swift */; };
+		0909CDE125014E2600F86AAC /* HorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDBE2500F44900F86AAC /* HorizontalProgressBar.swift */; };
+		0909CDE225014E2600F86AAC /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC02500F9C800F86AAC /* CircularProgressBar.swift */; };
+		0909CDE325014E2600F86AAC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC22500FD0400F86AAC /* Message.swift */; };
+		0909CDE425014E2600F86AAC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC6250141F200F86AAC /* UIColor+Extension.swift */; };
+		0909CDE525014E2600F86AAC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909CDC82501453100F86AAC /* UIViewController+Extension.swift */; };
+		0909CDE62501532200F86AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909CDAC2500D24B00F86AAC /* Main.storyboard */; };
+		0909CDF125015E0B00F86AAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0909CDEF25015E0B00F86AAC /* Localizable.strings */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0909CDDA25014A9D00F86AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0909CD9B2500D24A00F86AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0909CDA22500D24B00F86AAC;
+			remoteInfo = JavaScript;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0909CDA32500D24B00F86AAC /* JavaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0909CDA62500D24B00F86AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0909CDA82500D24B00F86AAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0909CDAA2500D24B00F86AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0909CDAA2500D24B00F86AAC /* VaccineTrialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineTrialViewController.swift; sourceTree = "<group>"; };
 		0909CDAD2500D24B00F86AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0909CDAF2500D24F00F86AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0909CDB22500D24F00F86AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0909CDB42500D24F00F86AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0909CDBE2500F44900F86AAC /* HorizontalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressBar.swift; sourceTree = "<group>"; };
+		0909CDC02500F9C800F86AAC /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		0909CDC22500FD0400F86AAC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0909CDC425010ACF00F86AAC /* MessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		0909CDC6250141F200F86AAC /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0909CDC82501453100F86AAC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0909CDD525014A9D00F86AAC /* JavaScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0909CDD725014A9D00F86AAC /* JavaScriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptTests.swift; sourceTree = "<group>"; };
+		0909CDD925014A9D00F86AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0909CDF025015E0B00F86AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JavaScript/Base.lproj/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0909CDA02500D24B00F86AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0909CDD225014A9D00F86AAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				0909CDA52500D24B00F86AAC /* JavaScript */,
+				0909CDEF25015E0B00F86AAC /* Localizable.strings */,
+				0909CDD625014A9D00F86AAC /* JavaScriptTests */,
 				0909CDA42500D24B00F86AAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				0909CDA32500D24B00F86AAC /* JavaScript.app */,
+				0909CDD525014A9D00F86AAC /* JavaScriptTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +102,86 @@
 		0909CDA52500D24B00F86AAC /* JavaScript */ = {
 			isa = PBXGroup;
 			children = (
-				0909CDA62500D24B00F86AAC /* AppDelegate.swift */,
-				0909CDA82500D24B00F86AAC /* SceneDelegate.swift */,
-				0909CDAA2500D24B00F86AAC /* ViewController.swift */,
-				0909CDAC2500D24B00F86AAC /* Main.storyboard */,
-				0909CDAF2500D24F00F86AAC /* Assets.xcassets */,
-				0909CDB12500D24F00F86AAC /* LaunchScreen.storyboard */,
-				0909CDB42500D24F00F86AAC /* Info.plist */,
+				0909CDCB2501491200F86AAC /* Custom Views */,
+				0909CDCC2501491C00F86AAC /* Data Models */,
+				0909CDCD2501492400F86AAC /* Extensions */,
+				0909CDCA2501490400F86AAC /* Storyboards */,
+				0909CDCF250149B900F86AAC /* Utilities */,
+				0909CDCE2501495300F86AAC /* View Controllers */,
+				0909CDD0250149F100F86AAC /* Supporting Files */,
 			);
 			path = JavaScript;
+			sourceTree = "<group>";
+		};
+		0909CDCA2501490400F86AAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDAC2500D24B00F86AAC /* Main.storyboard */,
+				0909CDB12500D24F00F86AAC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0909CDCB2501491200F86AAC /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDBE2500F44900F86AAC /* HorizontalProgressBar.swift */,
+				0909CDC02500F9C800F86AAC /* CircularProgressBar.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0909CDCC2501491C00F86AAC /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDC22500FD0400F86AAC /* Message.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		0909CDCD2501492400F86AAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDC6250141F200F86AAC /* UIColor+Extension.swift */,
+				0909CDC82501453100F86AAC /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0909CDCE2501495300F86AAC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDAA2500D24B00F86AAC /* VaccineTrialViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0909CDCF250149B900F86AAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDC425010ACF00F86AAC /* MessageHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0909CDD0250149F100F86AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDA62500D24B00F86AAC /* AppDelegate.swift */,
+				0909CDA82500D24B00F86AAC /* SceneDelegate.swift */,
+				0909CDAF2500D24F00F86AAC /* Assets.xcassets */,
+				0909CDB42500D24F00F86AAC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0909CDD625014A9D00F86AAC /* JavaScriptTests */ = {
+			isa = PBXGroup;
+			children = (
+				0909CDD725014A9D00F86AAC /* JavaScriptTests.swift */,
+				0909CDD925014A9D00F86AAC /* Info.plist */,
+			);
+			path = JavaScriptTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +204,24 @@
 			productReference = 0909CDA32500D24B00F86AAC /* JavaScript.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0909CDD425014A9D00F86AAC /* JavaScriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0909CDDC25014A9D00F86AAC /* Build configuration list for PBXNativeTarget "JavaScriptTests" */;
+			buildPhases = (
+				0909CDD125014A9D00F86AAC /* Sources */,
+				0909CDD225014A9D00F86AAC /* Frameworks */,
+				0909CDD325014A9D00F86AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0909CDDB25014A9D00F86AAC /* PBXTargetDependency */,
+			);
+			name = JavaScriptTests;
+			productName = JavaScriptTests;
+			productReference = 0909CDD525014A9D00F86AAC /* JavaScriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +234,10 @@
 				TargetAttributes = {
 					0909CDA22500D24B00F86AAC = {
 						CreatedOnToolsVersion = 11.6;
+					};
+					0909CDD425014A9D00F86AAC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0909CDA22500D24B00F86AAC;
 					};
 				};
 			};
@@ -116,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				0909CDA22500D24B00F86AAC /* JavaScript */,
+				0909CDD425014A9D00F86AAC /* JavaScriptTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0909CDB32500D24F00F86AAC /* LaunchScreen.storyboard in Resources */,
+				0909CDF125015E0B00F86AAC /* Localizable.strings in Resources */,
 				0909CDB02500D24F00F86AAC /* Assets.xcassets in Resources */,
 				0909CDAE2500D24B00F86AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0909CDD325014A9D00F86AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0909CDE62501532200F86AAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +287,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0909CDAB2500D24B00F86AAC /* ViewController.swift in Sources */,
+				0909CDC92501453100F86AAC /* UIViewController+Extension.swift in Sources */,
+				0909CDAB2500D24B00F86AAC /* VaccineTrialViewController.swift in Sources */,
 				0909CDA72500D24B00F86AAC /* AppDelegate.swift in Sources */,
+				0909CDBF2500F44900F86AAC /* HorizontalProgressBar.swift in Sources */,
+				0909CDC32500FD0400F86AAC /* Message.swift in Sources */,
 				0909CDA92500D24B00F86AAC /* SceneDelegate.swift in Sources */,
+				0909CDC525010ACF00F86AAC /* MessageHandler.swift in Sources */,
+				0909CDC12500F9C800F86AAC /* CircularProgressBar.swift in Sources */,
+				0909CDC7250141F200F86AAC /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0909CDD125014A9D00F86AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0909CDE525014E2600F86AAC /* UIViewController+Extension.swift in Sources */,
+				0909CDE425014E2600F86AAC /* UIColor+Extension.swift in Sources */,
+				0909CDDF25014BCA00F86AAC /* VaccineTrialViewController.swift in Sources */,
+				0909CDE025014C9F00F86AAC /* MessageHandler.swift in Sources */,
+				0909CDE125014E2600F86AAC /* HorizontalProgressBar.swift in Sources */,
+				0909CDE325014E2600F86AAC /* Message.swift in Sources */,
+				0909CDD825014A9D00F86AAC /* JavaScriptTests.swift in Sources */,
+				0909CDE225014E2600F86AAC /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0909CDDB25014A9D00F86AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0909CDA22500D24B00F86AAC /* JavaScript */;
+			targetProxy = 0909CDDA25014A9D00F86AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0909CDAC2500D24B00F86AAC /* Main.storyboard */ = {
@@ -161,6 +339,14 @@
 				0909CDB22500D24F00F86AAC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0909CDEF25015E0B00F86AAC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0909CDF025015E0B00F86AAC /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y78N79J6Y9;
-				INFOPLIST_FILE = JavaScript/Info.plist;
+				INFOPLIST_FILE = "JavaScript/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y78N79J6Y9;
-				INFOPLIST_FILE = JavaScript/Info.plist;
+				INFOPLIST_FILE = "JavaScript/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +499,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0909CDDD25014A9D00F86AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y78N79J6Y9;
+				INFOPLIST_FILE = JavaScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.gupta.saurabh.JavaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript.app/JavaScript";
+			};
+			name = Debug;
+		};
+		0909CDDE25014A9D00F86AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y78N79J6Y9;
+				INFOPLIST_FILE = JavaScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.gupta.saurabh.JavaScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript.app/JavaScript";
 			};
 			name = Release;
 		};
@@ -333,6 +559,15 @@
 			buildConfigurations = (
 				0909CDB82500D24F00F86AAC /* Debug */,
 				0909CDB92500D24F00F86AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0909CDDC25014A9D00F86AAC /* Build configuration list for PBXNativeTarget "JavaScriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0909CDDD25014A9D00F86AAC /* Debug */,
+				0909CDDE25014A9D00F86AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  JavaScript
+
+  Created by Saurabh Gupta on 03/09/20.
+  Copyright © 2020 Saurabh Gupta. All rights reserved.
+*/
+
+
+// Titles
+"VACCINETRIALSTITLE" = "COVID-19 Vaccine Trials";
+
+// Labels
+"COVIDTYPEAHUMANSUCCESS" = "COVID Vaccine TypeA Human Trial Success";
+"COVIDTYPEAANIMALSUCCESS" = "COVID Vaccine TypeA Animal Trial Success";
+"COVIDTYPEBHUMANSUCCESS" = "COVID Vaccine TypeB Human Trial Success";
+"COVIDTYPEBANIMALSUCCESS" = "COVID Vaccine TypeB Animal Trial Success";
+"COVIDTYPEAHUMANFAILED" = "COVID Vaccine TypeA Human Trial Failed";
+"COVIDTYPEAANIMALFAILED" = "COVID Vaccine TypeA Animal Trial Failed";
+"COVIDTYPEBHUMANFAILED" = "COVID Vaccine TypeB Human Trial Failed";
+"COVIDTYPEBANIMALFAILED" = "COVID Vaccine TypeB Animal Trial Failed";

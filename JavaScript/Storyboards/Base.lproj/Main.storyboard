@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WBY-9q-C0j">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vaccine Trial View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="VaccineTrialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="VaccineTrialViewController" customModule="JavaScript" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54S-dO-Jqk" customClass="HorizontalProgressBar" customModule="JavaScript" customModuleProvider="target">
+                                <rect key="frame" x="16" y="120" width="382" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="apP-e2-XYb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.61109808160409984" blue="0.84484788850472392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tK9-sw-KID" customClass="CircularProgressBar" customModule="JavaScript" customModuleProvider="target">
+                                <rect key="frame" x="132" y="345" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="gqd-aE-cSZ"/>
+                                    <constraint firstAttribute="width" constant="150" id="wXY-4S-U4c"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID Vaccine TypeA Human Trial Progress" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuZ-IX-jA2">
+                                <rect key="frame" x="16" y="164" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID Vaccine TypeB Human Trial Progress" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-en-vuc">
+                                <rect key="frame" x="16" y="499" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1S-4k-YEF" customClass="CircularProgressBar" customModule="JavaScript" customModuleProvider="target">
+                                <rect key="frame" x="132" y="551.5" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Afc-4x-6eF"/>
+                                    <constraint firstAttribute="width" constant="150" id="DMQ-M4-Z1f"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID Vaccine TypeB Animal Trial Progress" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-Ty-tcY">
+                                <rect key="frame" x="16" y="705.5" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wiu-MK-nx2" customClass="HorizontalProgressBar" customModule="JavaScript" customModuleProvider="target">
+                                <rect key="frame" x="16" y="216.5" width="382" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="h7G-uQ-tYo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID Vaccine TypeA Animal Trial Progress" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Kl-yO-p57">
+                                <rect key="frame" x="16" y="260.5" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Fea-en-vuc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0HQ-7f-2Vr"/>
+                            <constraint firstItem="Fea-en-vuc" firstAttribute="top" secondItem="tK9-sw-KID" secondAttribute="bottom" constant="4" id="19e-V7-GH8"/>
+                            <constraint firstItem="e1S-4k-YEF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ms-9X-ISY"/>
+                            <constraint firstItem="EuZ-IX-jA2" firstAttribute="trailing" secondItem="54S-dO-Jqk" secondAttribute="trailing" id="A0w-Jr-MOB"/>
+                            <constraint firstItem="54S-dO-Jqk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="AR2-6J-elA"/>
+                            <constraint firstItem="e1S-4k-YEF" firstAttribute="top" secondItem="Fea-en-vuc" secondAttribute="bottom" constant="32" id="C4z-5K-0O5"/>
+                            <constraint firstItem="1Kl-yO-p57" firstAttribute="trailing" secondItem="Wiu-MK-nx2" secondAttribute="trailing" id="CVk-bq-CJ8"/>
+                            <constraint firstItem="Wiu-MK-nx2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="HzY-OM-njl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fea-en-vuc" secondAttribute="trailing" constant="16" id="JuN-4m-fYx"/>
+                            <constraint firstItem="1Kl-yO-p57" firstAttribute="top" secondItem="Wiu-MK-nx2" secondAttribute="bottom" constant="4" id="Mko-5h-6ep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="54S-dO-Jqk" secondAttribute="trailing" constant="16" id="Nqm-NP-axP"/>
+                            <constraint firstItem="Raa-Ty-tcY" firstAttribute="top" secondItem="e1S-4k-YEF" secondAttribute="bottom" constant="4" id="NuB-mr-wvX"/>
+                            <constraint firstItem="1Kl-yO-p57" firstAttribute="leading" secondItem="Wiu-MK-nx2" secondAttribute="leading" id="V1N-lO-u6V"/>
+                            <constraint firstItem="tK9-sw-KID" firstAttribute="top" secondItem="1Kl-yO-p57" secondAttribute="bottom" constant="64" id="epi-R3-iLz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wiu-MK-nx2" secondAttribute="trailing" constant="16" id="gBV-h7-Uo3"/>
+                            <constraint firstItem="EuZ-IX-jA2" firstAttribute="leading" secondItem="54S-dO-Jqk" secondAttribute="leading" id="lRP-km-LmW"/>
+                            <constraint firstItem="EuZ-IX-jA2" firstAttribute="top" secondItem="54S-dO-Jqk" secondAttribute="bottom" constant="4" id="p9l-er-hdS"/>
+                            <constraint firstItem="54S-dO-Jqk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rPE-e2-AjA"/>
+                            <constraint firstItem="Raa-Ty-tcY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="w8W-8N-frD"/>
+                            <constraint firstItem="tK9-sw-KID" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yZt-jy-KMg"/>
+                            <constraint firstItem="Wiu-MK-nx2" firstAttribute="top" secondItem="EuZ-IX-jA2" secondAttribute="bottom" constant="32" id="zQ2-8Q-dkk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Raa-Ty-tcY" secondAttribute="trailing" constant="16" id="zRh-e3-c8E"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UfL-fb-Wo8"/>
+                    <connections>
+                        <outlet property="vaccineTypeAAnimalTrialLabel" destination="1Kl-yO-p57" id="ZLZ-IU-AIB"/>
+                        <outlet property="vaccineTypeAAnimalTrialProgressBar" destination="Wiu-MK-nx2" id="4FX-UM-Pex"/>
+                        <outlet property="vaccineTypeAHumanTrialLabel" destination="EuZ-IX-jA2" id="Kqh-rG-ibm"/>
+                        <outlet property="vaccineTypeAHumanTrialProgressBar" destination="54S-dO-Jqk" id="OML-7q-QrP"/>
+                        <outlet property="vaccineTypeBAnimalTrialLabel" destination="Raa-Ty-tcY" id="zEj-9Z-FJz"/>
+                        <outlet property="vaccineTypeBAnimalTrialProgressBar" destination="e1S-4k-YEF" id="hdf-Co-csu"/>
+                        <outlet property="vaccineTypeBHumanTrialLabel" destination="Fea-en-vuc" id="tdF-BU-N5I"/>
+                        <outlet property="vaccineTypeBHumanTrialProgressBar" destination="tK9-sw-KID" id="dMZ-wY-c1n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="120.53571428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PpL-Da-NlL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WBY-9q-C0j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lfg-o8-keE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="J2U-zX-0Hq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YWx-Tu-Hfp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="120.53571428571428"/>
+        </scene>
+    </scenes>
+</document>

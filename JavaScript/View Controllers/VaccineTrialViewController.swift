@@ -18,6 +18,7 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
         case vaccineTypeBAnimalTrial
     }
     
+    // MARK: IBOutlets
     @IBOutlet weak var vaccineTypeAHumanTrialProgressBar: HorizontalProgressBar!
     @IBOutlet weak var vaccineTypeAAnimalTrialProgressBar: HorizontalProgressBar!
     @IBOutlet weak var vaccineTypeBHumanTrialProgressBar: CircularProgressBar!
@@ -28,6 +29,7 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
     @IBOutlet weak var vaccineTypeBHumanTrialLabel: UILabel!
     @IBOutlet weak var vaccineTypeBAnimalTrialLabel: UILabel!
     
+    // MARK: Local Variables
     var webView: WKWebView!
     let messageHandler: MessageHandler = .jumbo
     let operations: [Operation] = [.vaccineTypeAHumanTrial, .vaccineTypeAAnimalTrial, .vaccineTypeBHumanTrial, .vaccineTypeBAnimalTrial]
@@ -35,15 +37,15 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "COVID-19 Vaccine Trials"
+        title = NSLocalizedString("VACCINETRIALSTITLE", comment: "Title")
         
         setupWebView()
         setupProgressBars()
         setupLabels()
-        addOperations()
+        addOperations(operations)
     }
     
-    private func setupWebView() {
+    func setupWebView() {
         let preferences = WKPreferences()
         preferences.javaScriptEnabled = true
 
@@ -94,7 +96,7 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
         return ""
     }
     
-    private func addOperations() {
+    private func addOperations(_ operations: [Operation]) {
         for operation in operations {
             webView.evaluateJavaScript("startOperation('\(operation.rawValue)')") { result, error in
                 if error != nil, let errorMessage = (error! as NSError).userInfo["WKJavaScriptExceptionMessage"] as? String {
@@ -154,16 +156,16 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
         let operation = Operation(rawValue: id)
         switch operation {
         case .vaccineTypeAHumanTrial:
-            vaccineTypeAHumanTrialLabel.text = "COVID Vaccine TypeA Human Trial Success"
+            vaccineTypeAHumanTrialLabel.text = NSLocalizedString("COVIDTYPEAHUMANSUCCESS", comment: "")
             vaccineTypeAHumanTrialLabel.textColor = UIColor.darkGreen()
         case .vaccineTypeAAnimalTrial:
-            vaccineTypeAAnimalTrialLabel.text = "COVID Vaccine TypeA Animal Trial Success"
+            vaccineTypeAAnimalTrialLabel.text = NSLocalizedString("COVIDTYPEAANIMALSUCCESS", comment: "")
             vaccineTypeAAnimalTrialLabel.textColor = UIColor.darkGreen()
         case .vaccineTypeBHumanTrial:
-            vaccineTypeBHumanTrialLabel.text = "COVID Vaccine TypeB Human Trial Success"
+            vaccineTypeBHumanTrialLabel.text = NSLocalizedString("COVIDTYPEBHUMANSUCCESS", comment: "")
             vaccineTypeBHumanTrialLabel.textColor = UIColor.darkGreen()
         case .vaccineTypeBAnimalTrial:
-            vaccineTypeBAnimalTrialLabel.text = "COVID Vaccine TypeB Animal Trial Success"
+            vaccineTypeBAnimalTrialLabel.text = NSLocalizedString("COVIDTYPEBANIMALSUCCESS", comment: "")
             vaccineTypeBAnimalTrialLabel.textColor = UIColor.darkGreen()
         case .none:
             break
@@ -174,16 +176,16 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
         let operation = Operation(rawValue: id)
         switch operation {
         case .vaccineTypeAHumanTrial:
-            vaccineTypeAHumanTrialLabel.text = "COVID Vaccine TypeA Human Trial Failed"
+            vaccineTypeAHumanTrialLabel.text = NSLocalizedString("COVIDTYPEAHUMANFAILED", comment: "")
             vaccineTypeAHumanTrialLabel.textColor = .red
         case .vaccineTypeAAnimalTrial:
-            vaccineTypeAAnimalTrialLabel.text = "COVID Vaccine TypeA Animal Trial Failed"
+            vaccineTypeAAnimalTrialLabel.text = NSLocalizedString("COVIDTYPEAANIMALFAILED", comment: "")
             vaccineTypeAAnimalTrialLabel.textColor = .red
         case .vaccineTypeBHumanTrial:
-            vaccineTypeBHumanTrialLabel.text = "COVID Vaccine TypeB Human Trial Failed"
+            vaccineTypeBHumanTrialLabel.text = NSLocalizedString("COVIDTYPEBHUMANFAILED", comment: "")
             vaccineTypeBHumanTrialLabel.textColor = .red
         case .vaccineTypeBAnimalTrial:
-            vaccineTypeBAnimalTrialLabel.text = "COVID Vaccine TypeB Animal Trial Failed"
+            vaccineTypeBAnimalTrialLabel.text = NSLocalizedString("COVIDTYPEBANIMALFAILED", comment: "")
             vaccineTypeBAnimalTrialLabel.textColor = .red
         case .none:
             break
@@ -191,6 +193,7 @@ class VaccineTrialViewController: UIViewController, WKNavigationDelegate, WKUIDe
     }
 }
 
+// MARK: WKScriptMessageHandler
 extension VaccineTrialViewController: WKScriptMessageHandler {
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         let messageHandler = MessageHandler(rawValue: message.name)
